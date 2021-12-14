@@ -1,6 +1,6 @@
-import Axios from 'axios';
+import Axios from "axios";
 const appApi = Axios.create({
-    timeout: 15000,
-  });
+  timeout: 15000,
+});
 
-  export {appApi}
+export { appApi };

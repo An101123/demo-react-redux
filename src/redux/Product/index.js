@@ -1,5 +1,5 @@
-import {ProductAsyncAction} from './ProductAsyncAction';
-import {ProductSlice} from './ProductSlice';
+import { ProductAsyncAction } from "./ProductAsyncAction";
+import { ProductSlice } from "./ProductSlice";
 
 const Product = {
   reducer: ProductSlice.reducer,
@@ -9,4 +9,4 @@ const Product = {
   },
 };
 
-export {Product}
+export { Product };
